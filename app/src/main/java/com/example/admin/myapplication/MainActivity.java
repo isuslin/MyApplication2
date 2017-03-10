@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 switch (v.getId()) {
                     case R.id.btnOk:
                         // кнопка ОК
-                        tvOut.setText("Нажата кнопка ХерОК");
+                        tvOut.setText("Нажата кнопка ХoК");
                         break;
                     case R.id.btnCancel:
                         // кнопка Cancel
