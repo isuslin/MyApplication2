@@ -37,5 +37,11 @@ public class MainActivity extends AppCompatActivity {
         };
         btnOk.setOnClickListener(oclBtn);
         btnCancel.setOnClickListener(oclBtn);
+
+
+    }
+
+    public void onClickStart(View v) {
+        tvOut.setText("Нажата кнопка bottom");
     }
 }

@@ -32,5 +32,13 @@
             android:text="Cancel"
             android:layout_width="100dp">
         </Button>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btnBottom"
+            android:text="bottom"
+            android:onClick="onClickStart"
+            android:layout_width="100dp">
+        </Button>
     </LinearLayout>
 </LinearLayout>
